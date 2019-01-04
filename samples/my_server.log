@@ -1,0 +1,27 @@
+DEBUG:spyne.model.complex:Got bases for Project from meta: (<class 'spyne.model.complex.ComplexModel'>,)
+DEBUG:spyne.model.complex:Got bases for make_func from meta: (<class 'spyne.model.complex.ComplexModel'>,)
+DEBUG:spyne.model.complex:Got bases for make_funcResponse from meta: (<class 'spyne.model.complex.ComplexModel'>,)
+DEBUG:spyne.interface._base:populating '__main__.SServices ({SampleServices}SServices)' types...
+DEBUG:spyne.interface._base:  enumerating classes for method 'make_func'
+DEBUG:spyne.interface._base:    adding class "<class 'spyne.model.complex.make_func'>" for '{SampleServices}make_func'
+DEBUG:spyne.interface._base:    adding make_func.project = <class '__main__.Project'>
+DEBUG:spyne.interface._base:    adding class "<class '__main__.Project'>" for '{Project}Project'
+DEBUG:spyne.interface._base:    adding Project.name = <class 'spyne.model.primitive.string.Unicode'>
+DEBUG:spyne.interface._base:    adding class "<class 'spyne.model.primitive.string.Unicode'>" for '{http://www.w3.org/2001/XMLSchema}string'
+DEBUG:spyne.interface._base:    adding Project.level = <class 'spyne.model.primitive.string.Unicode'>
+DEBUG:spyne.interface._base:    adding Project.time = <class 'spyne.model.primitive.string.Unicode'>
+DEBUG:spyne.interface._base:    adding Project.phone = <class 'spyne.model.primitive.string.Unicode'>
+DEBUG:spyne.interface._base:    adding Project.location = <class 'spyne.model.primitive.string.Unicode'>
+DEBUG:spyne.interface._base:    adding Project.address = <class 'spyne.model.primitive.string.Unicode'>
+DEBUG:spyne.interface._base:    adding Project.message = <class 'spyne.model.primitive.string.Unicode'>
+DEBUG:spyne.interface._base:    importing 'Project' to 'SampleServices' for make_func.project(<class '__main__.Project'>)
+DEBUG:spyne.interface._base:    adding class "<class 'spyne.model.complex.make_funcResponse'>" for '{SampleServices}make_funcResponse'
+DEBUG:spyne.interface._base:    adding make_funcResponse.make_funcResult = <class 'spyne.model.primitive.string.Unicode'>
+DEBUG:spyne.interface._base:populating '__main__.SServices' routes...
+DEBUG:spyne.interface._base:  adding method SServices.make_func to match '{SampleServices}make_func' tag.
+DEBUG:spyne.interface._base:From this point on, you're not supposed to make any changes to the class and method structure of the exposed services.
+DEBUG:spyne.interface.xml_schema:generating schema for targetNamespace='SampleServices', prefix: 'tns' in dir 'c:\\users\\weiliang\\appdata\\local\\temp\\spynekkrnoy'
+DEBUG:spyne.interface.xml_schema:writing 'c:\\users\\weiliang\\appdata\\local\\temp\\spynekkrnoy\\s0.xsd' for ns Project
+DEBUG:spyne.interface.xml_schema:writing 'c:\\users\\weiliang\\appdata\\local\\temp\\spynekkrnoy\\tns.xsd' for ns SampleServices
+DEBUG:spyne.interface.xml_schema:Schema built. Removed 'c:\\users\\weiliang\\appdata\\local\\temp\\spynekkrnoy'
+DEBUG:spyne.util.appreg:Registering <spyne.application.Application object at 0x00000000048E7860> as ('SampleServices', 'Application')
