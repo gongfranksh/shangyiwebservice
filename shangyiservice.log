@@ -1,0 +1,172 @@
+INFO:root:listening to http://192.168.81.136:8000
+INFO:root:wsdl is at: http://192.168.81.136:8000/?wsdl
+DEBUG:spyne:gc.collect() took around 10ms.
+DEBUG:spyne.protocol.soap.soap11:ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
+DEBUG:spyne.protocol.xml:Validated ? True
+2019-01-04 15:37:40,507 - H:/apps/webservice/shangyi_service.py[line:81] - INFO: listening to http://192.168.81.136:8000
+2019-01-04 15:37:40,507 - H:/apps/webservice/shangyi_service.py[line:82] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-04 15:37:50,049 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-04 15:37:50,372 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
+2019-01-04 15:37:50,375 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-04 15:46:39,131 - H:/apps/webservice/shangyi_service.py[line:63] - INFO: listening to http://192.168.81.136:8000
+2019-01-04 15:46:39,131 - H:/apps/webservice/shangyi_service.py[line:64] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-04 15:47:04,788 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-04 15:47:05,102 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
+2019-01-04 15:47:05,104 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-04 16:03:22,368 - H:/apps/webservice/shangyi_service.py[line:62] - INFO: listening to http://192.168.81.136:8000
+2019-01-04 16:03:22,368 - H:/apps/webservice/shangyi_service.py[line:63] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-04 16:03:45,769 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-04 16:03:46,969 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
+2019-01-04 16:03:46,970 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-04 16:03:47,032 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-04 16:06:39,496 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-04 16:07:54,772 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-04 16:07:55,121 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
+2019-01-04 16:07:55,121 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-04 16:08:14,716 - H:/apps/webservice/shangyi_service.py[line:62] - INFO: listening to http://192.168.81.136:8000
+2019-01-04 16:08:14,716 - H:/apps/webservice/shangyi_service.py[line:63] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-04 16:08:44,786 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-04 16:09:10,187 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-04 16:09:10,483 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
+2019-01-04 16:09:10,483 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-04 16:09:10,655 - H:\apps\webservice\venv\lib\site-packages\spyne\application.py[line:215] - ERROR: 'utf8' codec can't decode bytes in position 6-7: unexpected end of data
+Traceback (most recent call last):
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\application.py", line 151, in process_request
+    ctx.out_object = self.call_wrapper(ctx)
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\application.py", line 235, in call_wrapper
+    retval = ctx.descriptor.service_class.call_wrapper(ctx)
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\service.py", line 209, in call_wrapper
+    return ctx.function(ctx, *args)
+  File "H:\apps\webservice\ShangYi\jsMethod.py", line 18, in get_productbarcode_by_barcode_result
+    rst=productbarcode.seek_product_by_barcode(barcode)
+  File "H:\apps\webservice\Entity\ProductBarCode.py", line 13, in seek_product_by_barcode
+    rst=self.get_remote_result_by_sql(sql)
+  File "H:\apps\webservice\Entity\jsEntity.py", line 105, in get_remote_result_by_sql
+    json_res= json.dumps(res,cls=MsSqlResultDataEncoder)
+  File "c:\python27\Lib\json\__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "c:\python27\Lib\json\encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "c:\python27\Lib\json\encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+UnicodeDecodeError: 'utf8' codec can't decode bytes in position 6-7: unexpected end of data
+2019-01-04 16:10:13,434 - H:/apps/webservice/shangyi_service.py[line:62] - INFO: listening to http://192.168.81.136:8000
+2019-01-04 16:10:13,434 - H:/apps/webservice/shangyi_service.py[line:63] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-04 16:10:29,650 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-04 16:10:32,618 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
+2019-01-04 16:10:32,618 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-04 16:20:14,017 - H:\apps\webservice\venv\lib\site-packages\spyne\application.py[line:215] - ERROR: 'utf8' codec can't decode bytes in position 6-7: unexpected end of data
+Traceback (most recent call last):
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\application.py", line 151, in process_request
+    ctx.out_object = self.call_wrapper(ctx)
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\application.py", line 235, in call_wrapper
+    retval = ctx.descriptor.service_class.call_wrapper(ctx)
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\service.py", line 209, in call_wrapper
+    return ctx.function(ctx, *args)
+  File "H:\apps\webservice\ShangYi\jsMethod.py", line 18, in get_productbarcode_by_barcode_result
+    rst=productbarcode.seek_product_by_barcode(barcode)
+  File "H:\apps\webservice\Entity\ProductBarCode.py", line 13, in seek_product_by_barcode
+    rst=self.get_remote_result_by_sql(sql)
+  File "H:\apps\webservice\Entity\jsEntity.py", line 105, in get_remote_result_by_sql
+    json_res= json.dumps(res,cls=MsSqlResultDataEncoder)
+  File "c:\python27\Lib\json\__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "c:\python27\Lib\json\encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "c:\python27\Lib\json\encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+UnicodeDecodeError: 'utf8' codec can't decode bytes in position 6-7: unexpected end of data
+2019-01-04 16:20:14,017 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-04 16:21:27,250 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-04 16:21:27,438 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
+2019-01-04 16:21:27,438 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-04 16:42:23,259 - H:/apps/webservice/shangyi_service.py[line:62] - INFO: listening to http://192.168.81.136:8000
+2019-01-04 16:42:23,259 - H:/apps/webservice/shangyi_service.py[line:63] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-04 16:42:47,434 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-04 16:42:50,654 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
+2019-01-04 16:42:50,654 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-04 16:42:52,937 - H:\apps\webservice\venv\lib\site-packages\spyne\application.py[line:215] - ERROR: 'utf8' codec can't decode byte 0xa0 in position 6: invalid start byte
+Traceback (most recent call last):
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\application.py", line 151, in process_request
+    ctx.out_object = self.call_wrapper(ctx)
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\application.py", line 235, in call_wrapper
+    retval = ctx.descriptor.service_class.call_wrapper(ctx)
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\service.py", line 209, in call_wrapper
+    return ctx.function(ctx, *args)
+  File "H:\apps\webservice\ShangYi\jsMethod.py", line 25, in get_productbarcode_all
+    rst=productbarcode.get_remote_table_result_all()
+  File "H:\apps\webservice\Entity\jsEntity.py", line 81, in get_remote_table_result_all
+    json_res= json.dumps(res,cls=MsSqlResultDataEncoder)
+  File "c:\python27\Lib\json\__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "c:\python27\Lib\json\encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "c:\python27\Lib\json\encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xa0 in position 6: invalid start byte
+2019-01-04 16:42:52,969 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-04 16:43:11,424 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-04 16:46:03,921 - H:/apps/webservice/shangyi_service.py[line:62] - INFO: listening to http://192.168.81.136:8000
+2019-01-04 16:46:03,921 - H:/apps/webservice/shangyi_service.py[line:63] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-04 16:46:27,819 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-04 16:46:33,686 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
+2019-01-04 16:46:33,686 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-04 16:48:15,591 - H:/apps/webservice/shangyi_service.py[line:62] - INFO: listening to http://192.168.81.136:8000
+2019-01-04 16:48:15,591 - H:/apps/webservice/shangyi_service.py[line:63] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-04 16:48:43,467 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-04 16:48:45,927 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
+2019-01-04 16:48:45,927 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-04 16:50:17,693 - H:\apps\webservice\venv\lib\site-packages\spyne\application.py[line:215] - ERROR: 'utf8' codec can't decode byte 0xa0 in position 6: invalid start byte
+Traceback (most recent call last):
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\application.py", line 151, in process_request
+    ctx.out_object = self.call_wrapper(ctx)
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\application.py", line 235, in call_wrapper
+    retval = ctx.descriptor.service_class.call_wrapper(ctx)
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\service.py", line 209, in call_wrapper
+    return ctx.function(ctx, *args)
+  File "H:\apps\webservice\ShangYi\jsMethod.py", line 25, in get_productbarcode_all
+    rst=productbarcode.get_remote_table_result_all()
+  File "H:\apps\webservice\Entity\jsEntity.py", line 81, in get_remote_table_result_all
+    json_res= json.dumps(res,cls=MsSqlResultDataEncoder)
+  File "c:\python27\Lib\json\__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "c:\python27\Lib\json\encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "c:\python27\Lib\json\encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xa0 in position 6: invalid start byte
+2019-01-04 16:50:26,092 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-04 16:53:04,377 - H:/apps/webservice/shangyi_service.py[line:62] - INFO: listening to http://192.168.81.136:8000
+2019-01-04 16:53:04,377 - H:/apps/webservice/shangyi_service.py[line:63] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-04 16:53:09,950 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-04 16:53:10,240 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
+2019-01-04 16:53:10,240 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-04 16:54:37,982 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-04 16:54:44,078 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
+2019-01-04 16:54:44,078 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-04 17:03:33,334 - H:/apps/webservice/shangyi_service.py[line:62] - INFO: listening to http://192.168.81.136:8000
+2019-01-04 17:03:33,334 - H:/apps/webservice/shangyi_service.py[line:63] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-04 17:04:02,118 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-04 17:04:02,351 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
+2019-01-04 17:04:02,351 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-04 17:04:38,726 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-04 17:05:44,687 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-04 17:05:44,947 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
+2019-01-04 17:05:44,947 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-04 17:05:49,763 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-04 17:08:06,618 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-04 17:08:06,829 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
+2019-01-04 17:08:06,829 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-04 17:16:11,038 - H:/apps/webservice/shangyi_service.py[line:62] - INFO: listening to http://192.168.81.136:8000
+2019-01-04 17:16:11,038 - H:/apps/webservice/shangyi_service.py[line:63] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-04 17:16:21,512 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-04 17:16:21,762 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
+2019-01-04 17:16:21,762 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-04 17:17:50,019 - H:/apps/webservice/shangyi_service.py[line:62] - INFO: listening to http://192.168.81.136:8000
+2019-01-04 17:17:50,019 - H:/apps/webservice/shangyi_service.py[line:63] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-04 17:17:57,979 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-04 17:17:58,260 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
+2019-01-04 17:17:58,260 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-04 17:18:01,420 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-04 17:22:10,397 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-04 17:22:35,565 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
