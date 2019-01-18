@@ -42,7 +42,7 @@ class HelloWorldService2(ServiceBase):
 
 
 application = Application([HelloWorldService, HelloWorldService2, JsService],
-                          'weiliang.shangyi.webservice',
+                          'http://shangyi.weiliang.webservice',
                           in_protocol=Soap11(validator='lxml'),
                           out_protocol=Soap11())
 wsgi_application = WsgiApplication(application)

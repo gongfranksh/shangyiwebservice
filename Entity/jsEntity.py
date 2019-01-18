@@ -104,3 +104,6 @@ class JsEntity(object):
         json_res= json.dumps(res,cls=MsSqlResultDataEncoder)
         return json_res
 
+    def get_remote_list_by_sql(self,sql):
+        res = self.__MsSql_ExecQuery(sql)
+        return res

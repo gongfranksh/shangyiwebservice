@@ -1,35 +1,207 @@
-INFO:root:listening to http://192.168.81.136:8000
-INFO:root:wsdl is at: http://192.168.81.136:8000/?wsdl
-DEBUG:spyne:gc.collect() took around 10ms.
-DEBUG:spyne.protocol.soap.soap11:ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
-DEBUG:spyne.protocol.xml:Validated ? True
-2019-01-04 15:37:40,507 - H:/apps/webservice/shangyi_service.py[line:81] - INFO: listening to http://192.168.81.136:8000
-2019-01-04 15:37:40,507 - H:/apps/webservice/shangyi_service.py[line:82] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
-2019-01-04 15:37:50,049 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
-2019-01-04 15:37:50,372 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
-2019-01-04 15:37:50,375 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
-2019-01-04 15:46:39,131 - H:/apps/webservice/shangyi_service.py[line:63] - INFO: listening to http://192.168.81.136:8000
-2019-01-04 15:46:39,131 - H:/apps/webservice/shangyi_service.py[line:64] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
-2019-01-04 15:47:04,788 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
-2019-01-04 15:47:05,102 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
-2019-01-04 15:47:05,104 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
-2019-01-04 16:03:22,368 - H:/apps/webservice/shangyi_service.py[line:62] - INFO: listening to http://192.168.81.136:8000
-2019-01-04 16:03:22,368 - H:/apps/webservice/shangyi_service.py[line:63] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
-2019-01-04 16:03:45,769 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
-2019-01-04 16:03:46,969 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
-2019-01-04 16:03:46,970 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
-2019-01-04 16:03:47,032 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
-2019-01-04 16:06:39,496 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
-2019-01-04 16:07:54,772 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
-2019-01-04 16:07:55,121 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
-2019-01-04 16:07:55,121 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
-2019-01-04 16:08:14,716 - H:/apps/webservice/shangyi_service.py[line:62] - INFO: listening to http://192.168.81.136:8000
-2019-01-04 16:08:14,716 - H:/apps/webservice/shangyi_service.py[line:63] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
-2019-01-04 16:08:44,786 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
-2019-01-04 16:09:10,187 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
-2019-01-04 16:09:10,483 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
-2019-01-04 16:09:10,483 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
-2019-01-04 16:09:10,655 - H:\apps\webservice\venv\lib\site-packages\spyne\application.py[line:215] - ERROR: 'utf8' codec can't decode bytes in position 6-7: unexpected end of data
+2019-01-07 10:32:54,588 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-07 10:32:54,598 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 10:35:18,469 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 10:41:58,591 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-07 10:41:58,595 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-07 10:43:55,392 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-07 10:43:55,398 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-07 10:45:28,411 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-07 10:45:28,415 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-07 10:46:17,520 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-07 10:46:17,530 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 10:47:08,907 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-07 10:47:08,911 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-07 11:00:15,677 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 11:10:35,450 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-07 11:10:35,454 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-07 11:21:03,828 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 11:22:19,555 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 11:22:19,750 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 11:23:31,119 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 11:23:31,165 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 11:24:02,641 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 11:24:02,676 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 11:27:17,342 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 11:27:17,381 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 11:38:18,355 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-07 11:38:18,367 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 11:43:25,336 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 11:43:25,411 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 11:45:01,145 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 11:45:01,190 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 11:46:25,894 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 11:46:25,937 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 11:50:11,930 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 11:50:11,970 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 11:54:00,628 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 11:54:00,694 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 12:04:17,982 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 12:04:18,013 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 12:04:37,930 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 12:04:37,983 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 13:11:22,325 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 13:11:22,362 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-07 13:13:22,089 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 13:13:22,115 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-07 13:16:28,549 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 13:16:28,584 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 13:18:28,519 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 13:18:28,556 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 13:24:59,377 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 13:24:59,444 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 13:25:55,517 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 13:25:55,700 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-07 13:27:57,253 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 13:27:57,299 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 13:28:07,532 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 14:33:31,742 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-07 14:33:31,742 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-07 14:34:24,198 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 14:34:30,943 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 14:37:01,434 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-07 14:37:01,434 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-07 14:37:04,000 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-07 14:37:04,013 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 14:37:20,303 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-07 14:37:20,312 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 14:39:14,589 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-07 14:39:14,595 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-07 14:42:51,466 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-07 14:42:51,473 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 14:43:43,114 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 14:43:45,362 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 14:47:41,950 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-07 14:47:41,951 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-07 14:49:21,759 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 14:51:00,075 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-07 14:51:02,884 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
+2019-01-07 14:51:02,885 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 14:51:17,371 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 14:52:12,525 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 14:53:00,470 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-07 14:53:00,484 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 14:54:22,138 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 14:54:51,144 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-07 14:56:03,223 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 15:06:31,421 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-07 15:06:31,448 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-07 15:15:26,575 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:110] - ERROR: XMLSyntaxError(u"Failed to parse QName 'http:', line 1, column 311",) in string u'<v:Envelope xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns:d="http://www.w3.org/2001/XMLSchema" xmlns:c="http://schemas.xmlsoap.org/soap/encoding/" xmlns:v="http://schemas.xmlsoap.org/soap/envelope/"><v:Header /><v:Body><n0:get_productbarcode_all xmlns:n0="http://shangyi.weiliang.webservice"><http://shangyi.weiliang.webservicebar_code>01002</http://shangyi.weiliang.webservicebar_code></n0:get_productbarcode_all></v:Body></v:Envelope>\r\n'
+2019-01-07 15:15:26,591 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 15:16:46,838 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-07 15:16:46,848 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 15:25:42,663 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-07 15:25:42,663 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-07 15:26:04,892 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-07 15:26:04,904 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 15:28:05,963 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-07 15:28:05,963 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-07 15:28:35,467 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-07 15:28:35,490 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-07 15:29:27,282 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 15:31:51,382 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-07 15:31:51,401 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-07 15:33:36,914 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-07 15:33:36,914 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-07 15:33:58,019 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-07 15:33:58,029 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 15:34:12,411 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-07 15:34:12,483 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 60ms.
+2019-01-07 15:35:02,154 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-07 15:35:02,163 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 15:35:33,207 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-07 15:40:52,631 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-07 15:40:52,641 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 15:41:12,072 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-07 15:41:12,079 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 15:41:37,984 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-07 15:41:37,986 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-07 15:41:48,996 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-07 15:41:49,006 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 15:41:50,194 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-07 15:41:50,203 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 15:41:56,924 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-07 15:41:56,930 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 15:52:58,752 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-07 15:52:58,752 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-07 15:54:31,183 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-07 15:54:32,338 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 15:54:39,423 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 15:54:43,700 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-07 15:55:27,940 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 15:55:28,630 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 15:55:42,272 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 15:55:42,351 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 15:55:57,479 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 15:55:57,592 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-07 15:58:22,180 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-07 15:58:22,194 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 15:59:19,397 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 15:59:19,515 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 16:00:09,035 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 16:00:09,546 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 16:00:20,311 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 16:00:20,414 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 16:01:05,427 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-07 16:01:05,428 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-07 16:01:10,329 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 16:01:25,576 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-07 16:01:32,946 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 16:04:25,723 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 16:04:25,734 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 16:04:25,782 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 16:04:28,579 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 16:15:18,240 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 16:15:18,305 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 16:16:10,015 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-07 16:16:10,015 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-07 16:17:24,855 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 16:20:50,512 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 16:25:16,507 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 16:25:16,594 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-07 16:46:11,295 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-07 16:46:11,321 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-07 16:48:05,690 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 16:48:18,611 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 16:48:18,651 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 16:48:34,178 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 16:48:34,200 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 16:50:05,299 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 16:50:05,323 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 16:53:20,096 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 16:53:20,124 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 16:59:37,030 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 17:00:07,660 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 17:00:28,450 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-07 17:01:08,046 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-07 17:01:12,885 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-08 08:39:36,045 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 80ms.
+2019-01-08 09:42:59,686 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 40ms.
+2019-01-09 09:21:40,914 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-09 09:21:40,934 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-09 09:21:57,328 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-09 09:22:09,013 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-09 09:22:09,108 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-09 09:22:33,519 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-09 09:22:33,552 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-09 09:24:49,374 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-09 09:24:49,496 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 13:46:54,107 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-14 13:46:54,114 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-14 13:47:03,721 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 13:47:06,678 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
+2019-01-14 13:47:06,678 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 13:47:06,759 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-14 14:12:55,145 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-14 14:12:55,145 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-14 14:13:02,361 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-14 14:13:02,361 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-14 14:13:27,440 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 14:14:15,134 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-14 14:14:15,134 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-14 14:14:29,226 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 14:14:29,490 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
+2019-01-14 14:14:29,492 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 14:14:29,492 - H:\apps\webservice\venv\lib\site-packages\spyne\application.py[line:215] - ERROR: 'SystemFunction' object has no attribute 'get_branch_section_menu'
 Traceback (most recent call last):
   File "H:\apps\webservice\venv\lib\site-packages\spyne\application.py", line 151, in process_request
     ctx.out_object = self.call_wrapper(ctx)
@@ -37,25 +209,17 @@ Traceback (most recent call last):
     retval = ctx.descriptor.service_class.call_wrapper(ctx)
   File "H:\apps\webservice\venv\lib\site-packages\spyne\service.py", line 209, in call_wrapper
     return ctx.function(ctx, *args)
-  File "H:\apps\webservice\ShangYi\jsMethod.py", line 18, in get_productbarcode_by_barcode_result
-    rst=productbarcode.seek_product_by_barcode(barcode)
-  File "H:\apps\webservice\Entity\ProductBarCode.py", line 13, in seek_product_by_barcode
-    rst=self.get_remote_result_by_sql(sql)
-  File "H:\apps\webservice\Entity\jsEntity.py", line 105, in get_remote_result_by_sql
-    json_res= json.dumps(res,cls=MsSqlResultDataEncoder)
-  File "c:\python27\Lib\json\__init__.py", line 251, in dumps
-    sort_keys=sort_keys, **kw).encode(obj)
-  File "c:\python27\Lib\json\encoder.py", line 207, in encode
-    chunks = self.iterencode(o, _one_shot=True)
-  File "c:\python27\Lib\json\encoder.py", line 270, in iterencode
-    return _iterencode(o, 0)
-UnicodeDecodeError: 'utf8' codec can't decode bytes in position 6-7: unexpected end of data
-2019-01-04 16:10:13,434 - H:/apps/webservice/shangyi_service.py[line:62] - INFO: listening to http://192.168.81.136:8000
-2019-01-04 16:10:13,434 - H:/apps/webservice/shangyi_service.py[line:63] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
-2019-01-04 16:10:29,650 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
-2019-01-04 16:10:32,618 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
-2019-01-04 16:10:32,618 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
-2019-01-04 16:20:14,017 - H:\apps\webservice\venv\lib\site-packages\spyne\application.py[line:215] - ERROR: 'utf8' codec can't decode bytes in position 6-7: unexpected end of data
+  File "H:\apps\webservice\ShangYi\jsMethod.py", line 38, in get_functionmenu_all
+    rst=fun_menu.get_section_function_json()
+  File "H:\apps\webservice\Entity\SystemFunction.py", line 30, in get_section_function_json
+    rst_section=self.get_branch_section_menu()
+AttributeError: 'SystemFunction' object has no attribute 'get_branch_section_menu'
+2019-01-14 14:15:05,684 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-14 14:15:05,684 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-14 14:15:15,691 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 14:15:25,230 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
+2019-01-14 14:15:25,230 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 14:15:25,232 - H:\apps\webservice\venv\lib\site-packages\spyne\application.py[line:215] - ERROR: 'SystemFunction' object has no attribute 'get_branch_section_menu'
 Traceback (most recent call last):
   File "H:\apps\webservice\venv\lib\site-packages\spyne\application.py", line 151, in process_request
     ctx.out_object = self.call_wrapper(ctx)
@@ -63,29 +227,37 @@ Traceback (most recent call last):
     retval = ctx.descriptor.service_class.call_wrapper(ctx)
   File "H:\apps\webservice\venv\lib\site-packages\spyne\service.py", line 209, in call_wrapper
     return ctx.function(ctx, *args)
-  File "H:\apps\webservice\ShangYi\jsMethod.py", line 18, in get_productbarcode_by_barcode_result
-    rst=productbarcode.seek_product_by_barcode(barcode)
-  File "H:\apps\webservice\Entity\ProductBarCode.py", line 13, in seek_product_by_barcode
-    rst=self.get_remote_result_by_sql(sql)
-  File "H:\apps\webservice\Entity\jsEntity.py", line 105, in get_remote_result_by_sql
-    json_res= json.dumps(res,cls=MsSqlResultDataEncoder)
-  File "c:\python27\Lib\json\__init__.py", line 251, in dumps
-    sort_keys=sort_keys, **kw).encode(obj)
-  File "c:\python27\Lib\json\encoder.py", line 207, in encode
-    chunks = self.iterencode(o, _one_shot=True)
-  File "c:\python27\Lib\json\encoder.py", line 270, in iterencode
-    return _iterencode(o, 0)
-UnicodeDecodeError: 'utf8' codec can't decode bytes in position 6-7: unexpected end of data
-2019-01-04 16:20:14,017 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
-2019-01-04 16:21:27,250 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
-2019-01-04 16:21:27,438 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
-2019-01-04 16:21:27,438 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
-2019-01-04 16:42:23,259 - H:/apps/webservice/shangyi_service.py[line:62] - INFO: listening to http://192.168.81.136:8000
-2019-01-04 16:42:23,259 - H:/apps/webservice/shangyi_service.py[line:63] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
-2019-01-04 16:42:47,434 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
-2019-01-04 16:42:50,654 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
-2019-01-04 16:42:50,654 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
-2019-01-04 16:42:52,937 - H:\apps\webservice\venv\lib\site-packages\spyne\application.py[line:215] - ERROR: 'utf8' codec can't decode byte 0xa0 in position 6: invalid start byte
+  File "H:\apps\webservice\ShangYi\jsMethod.py", line 38, in get_functionmenu_all
+    rst=fun_menu.get_section_function_json()
+  File "H:\apps\webservice\Entity\SystemFunction.py", line 30, in get_section_function_json
+    rst_section=self.get_branch_section_menu()
+AttributeError: 'SystemFunction' object has no attribute 'get_branch_section_menu'
+2019-01-14 14:15:25,240 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 14:16:21,762 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-14 14:16:21,763 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-14 14:16:30,898 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 14:18:45,230 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-14 14:18:45,232 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-14 14:19:02,184 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 14:19:15,082 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 14:20:46,252 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 14:21:28,969 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 14:21:31,621 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
+2019-01-14 14:21:31,621 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 14:21:31,703 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 14:22:57,359 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-14 14:22:57,361 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-14 14:23:08,131 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 14:23:34,821 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-14 14:23:34,821 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-14 14:23:37,904 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 14:23:55,674 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 14:28:50,369 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-14 14:28:50,369 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-14 14:29:11,494 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 14:29:16,335 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
+2019-01-14 14:29:16,335 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 14:29:16,335 - H:\apps\webservice\venv\lib\site-packages\spyne\application.py[line:215] - ERROR: __init__() takes exactly 1 argument (2 given)
 Traceback (most recent call last):
   File "H:\apps\webservice\venv\lib\site-packages\spyne\application.py", line 151, in process_request
     ctx.out_object = self.call_wrapper(ctx)
@@ -93,30 +265,22 @@ Traceback (most recent call last):
     retval = ctx.descriptor.service_class.call_wrapper(ctx)
   File "H:\apps\webservice\venv\lib\site-packages\spyne\service.py", line 209, in call_wrapper
     return ctx.function(ctx, *args)
-  File "H:\apps\webservice\ShangYi\jsMethod.py", line 25, in get_productbarcode_all
-    rst=productbarcode.get_remote_table_result_all()
-  File "H:\apps\webservice\Entity\jsEntity.py", line 81, in get_remote_table_result_all
-    json_res= json.dumps(res,cls=MsSqlResultDataEncoder)
-  File "c:\python27\Lib\json\__init__.py", line 251, in dumps
-    sort_keys=sort_keys, **kw).encode(obj)
-  File "c:\python27\Lib\json\encoder.py", line 207, in encode
-    chunks = self.iterencode(o, _one_shot=True)
-  File "c:\python27\Lib\json\encoder.py", line 270, in iterencode
-    return _iterencode(o, 0)
-UnicodeDecodeError: 'utf8' codec can't decode byte 0xa0 in position 6: invalid start byte
-2019-01-04 16:42:52,969 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
-2019-01-04 16:43:11,424 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
-2019-01-04 16:46:03,921 - H:/apps/webservice/shangyi_service.py[line:62] - INFO: listening to http://192.168.81.136:8000
-2019-01-04 16:46:03,921 - H:/apps/webservice/shangyi_service.py[line:63] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
-2019-01-04 16:46:27,819 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
-2019-01-04 16:46:33,686 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
-2019-01-04 16:46:33,686 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
-2019-01-04 16:48:15,591 - H:/apps/webservice/shangyi_service.py[line:62] - INFO: listening to http://192.168.81.136:8000
-2019-01-04 16:48:15,591 - H:/apps/webservice/shangyi_service.py[line:63] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
-2019-01-04 16:48:43,467 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
-2019-01-04 16:48:45,927 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
-2019-01-04 16:48:45,927 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
-2019-01-04 16:50:17,693 - H:\apps\webservice\venv\lib\site-packages\spyne\application.py[line:215] - ERROR: 'utf8' codec can't decode byte 0xa0 in position 6: invalid start byte
+  File "H:\apps\webservice\ShangYi\jsMethod.py", line 37, in get_functionmenu_all
+    fun_menu = SystemFunction('01002')
+TypeError: __init__() takes exactly 1 argument (2 given)
+2019-01-14 14:29:16,346 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 14:31:25,821 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-14 14:31:25,821 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-14 14:31:40,586 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 14:31:44,839 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
+2019-01-14 14:31:44,839 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 14:31:44,848 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 14:32:53,246 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-14 14:32:53,246 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-14 14:33:08,482 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 14:33:20,286 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
+2019-01-14 14:33:20,286 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 14:33:20,288 - H:\apps\webservice\venv\lib\site-packages\spyne\application.py[line:215] - ERROR: __init__() takes exactly 1 argument (2 given)
 Traceback (most recent call last):
   File "H:\apps\webservice\venv\lib\site-packages\spyne\application.py", line 151, in process_request
     ctx.out_object = self.call_wrapper(ctx)
@@ -124,49 +288,976 @@ Traceback (most recent call last):
     retval = ctx.descriptor.service_class.call_wrapper(ctx)
   File "H:\apps\webservice\venv\lib\site-packages\spyne\service.py", line 209, in call_wrapper
     return ctx.function(ctx, *args)
-  File "H:\apps\webservice\ShangYi\jsMethod.py", line 25, in get_productbarcode_all
-    rst=productbarcode.get_remote_table_result_all()
-  File "H:\apps\webservice\Entity\jsEntity.py", line 81, in get_remote_table_result_all
-    json_res= json.dumps(res,cls=MsSqlResultDataEncoder)
-  File "c:\python27\Lib\json\__init__.py", line 251, in dumps
-    sort_keys=sort_keys, **kw).encode(obj)
-  File "c:\python27\Lib\json\encoder.py", line 207, in encode
-    chunks = self.iterencode(o, _one_shot=True)
-  File "c:\python27\Lib\json\encoder.py", line 270, in iterencode
-    return _iterencode(o, 0)
-UnicodeDecodeError: 'utf8' codec can't decode byte 0xa0 in position 6: invalid start byte
-2019-01-04 16:50:26,092 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
-2019-01-04 16:53:04,377 - H:/apps/webservice/shangyi_service.py[line:62] - INFO: listening to http://192.168.81.136:8000
-2019-01-04 16:53:04,377 - H:/apps/webservice/shangyi_service.py[line:63] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
-2019-01-04 16:53:09,950 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
-2019-01-04 16:53:10,240 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
-2019-01-04 16:53:10,240 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
-2019-01-04 16:54:37,982 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
-2019-01-04 16:54:44,078 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
-2019-01-04 16:54:44,078 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
-2019-01-04 17:03:33,334 - H:/apps/webservice/shangyi_service.py[line:62] - INFO: listening to http://192.168.81.136:8000
-2019-01-04 17:03:33,334 - H:/apps/webservice/shangyi_service.py[line:63] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
-2019-01-04 17:04:02,118 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
-2019-01-04 17:04:02,351 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
-2019-01-04 17:04:02,351 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
-2019-01-04 17:04:38,726 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
-2019-01-04 17:05:44,687 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
-2019-01-04 17:05:44,947 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
-2019-01-04 17:05:44,947 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
-2019-01-04 17:05:49,763 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
-2019-01-04 17:08:06,618 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
-2019-01-04 17:08:06,829 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
-2019-01-04 17:08:06,829 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
-2019-01-04 17:16:11,038 - H:/apps/webservice/shangyi_service.py[line:62] - INFO: listening to http://192.168.81.136:8000
-2019-01-04 17:16:11,038 - H:/apps/webservice/shangyi_service.py[line:63] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
-2019-01-04 17:16:21,512 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
-2019-01-04 17:16:21,762 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
-2019-01-04 17:16:21,762 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
-2019-01-04 17:17:50,019 - H:/apps/webservice/shangyi_service.py[line:62] - INFO: listening to http://192.168.81.136:8000
-2019-01-04 17:17:50,019 - H:/apps/webservice/shangyi_service.py[line:63] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
-2019-01-04 17:17:57,979 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
-2019-01-04 17:17:58,260 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
-2019-01-04 17:17:58,260 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
-2019-01-04 17:18:01,420 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
-2019-01-04 17:22:10,397 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
-2019-01-04 17:22:35,565 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+  File "H:\apps\webservice\ShangYi\jsMethod.py", line 36, in get_functionmenu_all
+    fun_menu = SystemFunction()
+TypeError: __init__() takes exactly 1 argument (2 given)
+2019-01-14 14:33:20,299 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 14:51:12,354 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-14 14:51:12,355 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-14 14:51:35,469 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 14:51:38,914 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
+2019-01-14 14:51:38,914 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 14:51:39,888 - H:\apps\webservice\venv\lib\site-packages\spyne\util\__init__.py[line:126] - ERROR: Argument must be bytes or unicode, got 'list'
+Traceback (most recent call last):
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\util\__init__.py", line 120, in start
+    next(ret)
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py", line 782, in _get_members_etree
+    sub_name)
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py", line 463, in to_parent
+    return handler(ctx, cls, inst, parent, ns, *args, **kwargs)
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py", line 616, in modelbase_to_parent
+    elt.text = self.to_unicode(cls, inst)
+  File "src\lxml\etree.pyx", line 1020, in lxml.etree._Element.text.__set__
+  File "src\lxml\apihelpers.pxi", line 711, in lxml.etree._setNodeText
+  File "src\lxml\apihelpers.pxi", line 699, in lxml.etree._createTextNode
+  File "src\lxml\apihelpers.pxi", line 1437, in lxml.etree._utf8
+TypeError: Argument must be bytes or unicode, got 'list'
+2019-01-14 14:51:39,901 - H:\apps\webservice\venv\lib\site-packages\spyne\util\__init__.py[line:126] - ERROR: Argument must be bytes or unicode, got 'list'
+Traceback (most recent call last):
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\util\__init__.py", line 120, in start
+    next(ret)
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py", line 676, in gen_members_parent
+    ret = self._get_members_etree(ctx, cls, inst, elt)
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\util\__init__.py", line 127, in start
+    raise e
+TypeError: Argument must be bytes or unicode, got 'list'
+2019-01-14 14:51:39,901 - H:\apps\webservice\venv\lib\site-packages\spyne\server\wsgi.py[line:374] - ERROR: Argument must be bytes or unicode, got 'list'
+Traceback (most recent call last):
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\server\wsgi.py", line 371, in handle_rpc
+    self.get_out_string(p_ctx)
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\server\_base.py", line 122, in get_out_string_pull
+    ret = ctx.out_protocol.serialize(ctx, message=ProtocolBase.RESPONSE)
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py", line 322, in serialize
+    body_message_class.get_namespace())
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py", line 463, in to_parent
+    return handler(ctx, cls, inst, parent, ns, *args, **kwargs)
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py", line 814, in complex_to_parent
+    add_type)
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\util\__init__.py", line 127, in start
+    raise e
+TypeError: Argument must be bytes or unicode, got 'list'
+2019-01-14 14:51:39,917 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 14:52:43,713 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 14:52:48,596 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\soap\soap11.py[line:105] - DEBUG: ValueError: Deserializing from unicode strings with encoding declaration is not supported by lxml.
+2019-01-14 14:52:48,598 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 15:55:04,482 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-14 15:55:04,482 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-14 15:56:49,651 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-14 15:56:49,651 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-14 15:59:22,766 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-14 15:59:22,766 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-14 16:00:27,267 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-14 16:00:27,269 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-14 16:37:05,230 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-14 16:37:05,243 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 16:37:08,098 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-14 16:37:08,112 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 16:37:08,799 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-14 16:37:08,974 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-14 16:37:35,362 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? False
+2019-01-14 16:37:35,367 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-14 16:39:14,785 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 16:39:15,773 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 16:45:58,519 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 16:45:59,417 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 17:04:52,983 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 17:04:54,128 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-14 17:21:56,480 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 17:21:57,312 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 17:39:45,288 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 17:39:46,301 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 17:40:28,572 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 17:40:29,249 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-14 17:41:19,871 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 17:41:20,638 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 17:41:52,918 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 17:41:53,546 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-14 17:42:22,009 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 17:42:22,591 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-14 17:44:31,589 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 17:44:32,562 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 17:51:10,220 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 17:51:11,053 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 17:52:17,846 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 17:52:18,750 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 17:53:05,901 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 17:53:07,009 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 17:53:21,713 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 17:53:22,657 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 17:53:31,500 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 17:53:32,242 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 17:54:05,615 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 17:54:06,641 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 17:55:07,243 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 17:55:08,332 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 17:56:53,325 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 17:56:54,012 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-14 18:02:40,798 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 18:02:41,588 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 18:07:37,760 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 18:07:38,714 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 18:25:00,934 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 18:25:01,638 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 18:25:07,332 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 18:25:08,089 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 18:25:09,414 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 18:25:10,088 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 18:25:11,236 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 18:25:11,898 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 18:25:13,101 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 18:25:13,785 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 18:25:31,565 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 18:25:32,298 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 18:26:35,520 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 18:26:36,213 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 18:26:36,898 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 18:26:37,647 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 18:26:39,005 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 18:26:39,789 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 18:29:27,226 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 18:29:28,138 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-14 18:30:00,266 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-14 18:30:01,349 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 08:57:05,111 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-15 08:57:05,111 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-15 08:57:50,210 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 08:57:51,038 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-15 09:17:55,842 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 09:17:57,466 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-15 09:27:28,937 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 09:27:29,927 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 09:28:36,716 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 09:28:37,526 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-15 09:30:00,631 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 09:30:01,960 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 09:31:29,888 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 09:31:30,783 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 09:36:01,882 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 09:36:02,673 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 09:38:06,615 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 09:38:07,553 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 09:43:19,561 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 09:43:20,739 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 09:44:21,029 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 09:44:21,921 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-15 09:45:44,480 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 09:45:47,427 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 09:46:10,451 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 09:46:11,559 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 09:48:09,266 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 09:48:10,342 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 09:48:46,408 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 09:48:47,342 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-15 09:55:12,670 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 09:55:14,496 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-15 09:56:28,917 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 09:56:29,720 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 09:59:20,832 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 09:59:21,634 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-15 10:00:14,963 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 10:00:16,161 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 10:01:19,489 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 10:01:20,413 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-15 10:03:38,042 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 10:03:39,046 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 10:06:32,927 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 10:06:35,128 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 10:09:00,453 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 10:09:01,309 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 10:21:22,858 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 10:21:23,757 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 10:31:09,897 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 10:31:10,614 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 10:38:49,118 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 10:38:50,128 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 10:50:31,384 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 10:50:32,476 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 210ms.
+2019-01-15 11:11:08,908 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-15 11:11:08,910 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-15 11:11:42,921 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 11:11:43,816 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-15 11:13:04,305 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 11:13:05,371 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 11:15:13,005 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 11:15:13,683 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 11:25:45,453 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-15 11:25:45,453 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-15 11:25:55,043 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-15 11:25:55,043 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-15 11:25:58,585 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 11:25:58,707 - H:\apps\webservice\venv\lib\site-packages\spyne\application.py[line:215] - ERROR: (156, "Incorrect syntax near the keyword 'and'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+Traceback (most recent call last):
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\application.py", line 151, in process_request
+    ctx.out_object = self.call_wrapper(ctx)
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\application.py", line 235, in call_wrapper
+    retval = ctx.descriptor.service_class.call_wrapper(ctx)
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\service.py", line 209, in call_wrapper
+    return ctx.function(ctx, *args)
+  File "H:\apps\webservice\ShangYi\jsMethod.py", line 37, in get_functionmenu_all
+    rst=fun_menu.get_section_function_json()
+  File "H:\apps\webservice\Entity\SystemFunction.py", line 41, in get_section_function_json
+    rst_function=self.query_branch_function_menu(section_row['centid'],section_row['sectionid'])
+  File "H:\apps\webservice\Entity\SystemFunction.py", line 33, in query_branch_function_menu
+    rst = self.get_remote_list_by_sql(sql)
+  File "H:\apps\webservice\Entity\jsEntity.py", line 108, in get_remote_list_by_sql
+    res = self.__MsSql_ExecQuery(sql)
+  File "H:\apps\webservice\Entity\jsEntity.py", line 66, in __MsSql_ExecQuery
+    cur.execute(sql)
+  File "src\pymssql.pyx", line 468, in pymssql.Cursor.execute
+OperationalError: (156, "Incorrect syntax near the keyword 'and'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2019-01-15 11:25:58,720 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 11:26:17,723 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 11:26:17,788 - H:\apps\webservice\venv\lib\site-packages\spyne\application.py[line:215] - ERROR: (156, "Incorrect syntax near the keyword 'and'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+Traceback (most recent call last):
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\application.py", line 151, in process_request
+    ctx.out_object = self.call_wrapper(ctx)
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\application.py", line 235, in call_wrapper
+    retval = ctx.descriptor.service_class.call_wrapper(ctx)
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\service.py", line 209, in call_wrapper
+    return ctx.function(ctx, *args)
+  File "H:\apps\webservice\ShangYi\jsMethod.py", line 37, in get_functionmenu_all
+    rst=fun_menu.get_section_function_json()
+  File "H:\apps\webservice\Entity\SystemFunction.py", line 41, in get_section_function_json
+    rst_function=self.query_branch_function_menu(section_row['centid'],section_row['sectionid'])
+  File "H:\apps\webservice\Entity\SystemFunction.py", line 33, in query_branch_function_menu
+    rst = self.get_remote_list_by_sql(sql)
+  File "H:\apps\webservice\Entity\jsEntity.py", line 108, in get_remote_list_by_sql
+    res = self.__MsSql_ExecQuery(sql)
+  File "H:\apps\webservice\Entity\jsEntity.py", line 66, in __MsSql_ExecQuery
+    cur.execute(sql)
+  File "src\pymssql.pyx", line 468, in pymssql.Cursor.execute
+OperationalError: (156, "Incorrect syntax near the keyword 'and'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2019-01-15 11:26:17,799 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 11:27:38,635 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 11:27:38,891 - H:\apps\webservice\venv\lib\site-packages\spyne\application.py[line:215] - ERROR: (156, "Incorrect syntax near the keyword 'and'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+Traceback (most recent call last):
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\application.py", line 151, in process_request
+    ctx.out_object = self.call_wrapper(ctx)
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\application.py", line 235, in call_wrapper
+    retval = ctx.descriptor.service_class.call_wrapper(ctx)
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\service.py", line 209, in call_wrapper
+    return ctx.function(ctx, *args)
+  File "H:\apps\webservice\ShangYi\jsMethod.py", line 37, in get_functionmenu_all
+    rst=fun_menu.get_section_function_json()
+  File "H:\apps\webservice\Entity\SystemFunction.py", line 41, in get_section_function_json
+    rst_function=self.query_branch_function_menu(section_row['centid'],section_row['sectionid'])
+  File "H:\apps\webservice\Entity\SystemFunction.py", line 33, in query_branch_function_menu
+    rst = self.get_remote_list_by_sql(sql)
+  File "H:\apps\webservice\Entity\jsEntity.py", line 108, in get_remote_list_by_sql
+    res = self.__MsSql_ExecQuery(sql)
+  File "H:\apps\webservice\Entity\jsEntity.py", line 66, in __MsSql_ExecQuery
+    cur.execute(sql)
+  File "src\pymssql.pyx", line 468, in pymssql.Cursor.execute
+OperationalError: (156, "Incorrect syntax near the keyword 'and'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2019-01-15 11:27:38,914 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 11:29:08,404 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 11:29:08,460 - H:\apps\webservice\venv\lib\site-packages\spyne\application.py[line:215] - ERROR: (156, "Incorrect syntax near the keyword 'and'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+Traceback (most recent call last):
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\application.py", line 151, in process_request
+    ctx.out_object = self.call_wrapper(ctx)
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\application.py", line 235, in call_wrapper
+    retval = ctx.descriptor.service_class.call_wrapper(ctx)
+  File "H:\apps\webservice\venv\lib\site-packages\spyne\service.py", line 209, in call_wrapper
+    return ctx.function(ctx, *args)
+  File "H:\apps\webservice\ShangYi\jsMethod.py", line 37, in get_functionmenu_all
+    rst=fun_menu.get_section_function_json()
+  File "H:\apps\webservice\Entity\SystemFunction.py", line 41, in get_section_function_json
+    rst_function=self.query_branch_function_menu(section_row['centid'],section_row['sectionid'])
+  File "H:\apps\webservice\Entity\SystemFunction.py", line 33, in query_branch_function_menu
+    rst = self.get_remote_list_by_sql(sql)
+  File "H:\apps\webservice\Entity\jsEntity.py", line 108, in get_remote_list_by_sql
+    res = self.__MsSql_ExecQuery(sql)
+  File "H:\apps\webservice\Entity\jsEntity.py", line 66, in __MsSql_ExecQuery
+    cur.execute(sql)
+  File "src\pymssql.pyx", line 468, in pymssql.Cursor.execute
+OperationalError: (156, "Incorrect syntax near the keyword 'and'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2019-01-15 11:29:08,469 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 11:29:37,657 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-15 11:29:37,657 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-15 11:29:51,944 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 11:29:52,121 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 11:30:29,157 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 11:30:29,351 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 11:34:52,690 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-15 11:34:52,691 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-15 11:35:12,503 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 11:35:12,667 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 13:13:28,970 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 13:13:29,042 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 13:16:11,267 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 13:16:11,351 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 13:19:29,500 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 13:19:29,605 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 13:20:34,651 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 13:20:35,176 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 13:21:43,730 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-15 13:21:43,730 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-15 13:22:30,641 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 13:22:30,782 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 13:28:47,095 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 13:28:47,188 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 13:45:14,980 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 13:45:15,086 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 13:45:58,186 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 13:45:58,303 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 13:46:53,982 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 13:46:54,099 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 13:53:27,795 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 13:53:27,904 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 13:54:26,855 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 13:54:26,951 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 14:02:10,746 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 14:02:10,865 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 14:03:36,687 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 14:03:36,826 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 14:08:17,421 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 14:08:17,522 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 14:12:00,089 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 14:12:00,194 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 14:16:51,775 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 14:16:51,903 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 14:18:30,739 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 14:18:30,832 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-15 14:19:49,888 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 14:19:50,019 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 14:20:25,759 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 14:20:25,911 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 14:22:16,042 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 14:22:16,157 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 14:22:42,484 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 14:22:42,601 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 14:25:38,283 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 14:25:38,390 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 14:28:11,813 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 14:28:11,918 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-15 14:34:18,115 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 14:34:18,227 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 15:12:10,125 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-15 15:12:10,128 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-15 15:13:56,911 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 15:13:57,250 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 15:19:21,642 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 15:19:21,779 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-15 15:24:06,454 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 15:24:06,540 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 15:25:03,664 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 15:25:03,773 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 15:26:53,358 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 15:26:53,509 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 15:28:27,963 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 15:28:28,056 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 15:30:10,647 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 15:30:10,835 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-15 15:31:15,174 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 15:31:15,267 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 15:33:17,010 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 15:33:17,164 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-15 15:44:19,927 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 15:44:20,052 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 15:46:15,249 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 15:46:15,382 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 15:48:52,561 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 15:48:52,667 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 15:55:19,826 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 15:55:19,967 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 15:57:21,881 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 15:57:22,020 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 15:59:09,608 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 15:59:09,683 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-15 16:00:52,378 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 16:00:52,456 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 16:05:46,204 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 16:05:46,273 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-15 16:05:54,832 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 16:05:54,950 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 16:05:59,519 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 16:05:59,628 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 16:06:01,318 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 16:06:01,463 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-15 16:06:25,928 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 16:06:26,065 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 16:06:27,424 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 16:06:27,563 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 16:07:09,454 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 16:07:09,558 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 16:07:39,711 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 16:07:39,816 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 16:13:20,365 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 16:13:20,493 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-15 16:13:25,332 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 16:13:25,411 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-15 16:13:53,160 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 16:13:53,288 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-15 16:14:03,696 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 16:14:03,818 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-15 16:14:10,513 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 16:14:10,654 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-15 16:14:13,661 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 16:14:13,802 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-15 16:14:14,997 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 16:14:15,138 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-15 16:14:26,595 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 16:14:26,736 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-15 16:14:30,993 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 16:14:31,132 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 16:18:33,615 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 16:18:33,855 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 16:41:35,400 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-15 16:41:35,400 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-15 16:41:53,723 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 16:41:54,630 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-15 16:45:15,798 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 16:45:15,970 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-15 16:50:11,256 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 16:50:12,158 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 16:53:49,375 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 16:53:49,470 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 16:58:41,384 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 16:58:41,473 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 16:59:40,243 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 16:59:40,369 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 17:00:37,048 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 17:00:37,509 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 17:00:44,829 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 17:00:44,953 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 17:03:06,589 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 17:03:06,684 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-15 17:03:37,674 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 17:03:37,778 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-15 17:47:00,272 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 17:47:00,384 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 17:47:10,467 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 17:47:10,551 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-15 17:48:30,421 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 17:48:30,503 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-15 17:48:36,243 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 17:48:36,325 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-15 17:51:20,858 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 17:51:21,069 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-15 17:58:04,819 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-15 17:58:04,961 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 08:49:24,111 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-16 08:49:24,111 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-16 08:49:24,704 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 08:49:24,954 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-16 08:49:38,295 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 08:49:38,388 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-16 08:52:46,828 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 08:52:46,970 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-16 09:23:14,519 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 09:23:14,895 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 09:36:26,490 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 09:36:26,592 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 09:38:03,674 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 09:38:03,769 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 09:39:41,355 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 09:39:41,493 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 09:44:39,857 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 09:44:40,026 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 09:50:08,650 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 09:50:08,757 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-16 09:52:25,765 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 09:52:25,855 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-16 10:08:25,601 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 10:08:25,753 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 10:15:37,525 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 10:15:37,637 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 10:18:30,119 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 10:18:30,249 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 10:19:19,128 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 10:19:19,240 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 10:24:24,092 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 10:24:24,204 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 10:27:19,881 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 10:27:19,996 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 10:43:51,529 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 10:43:51,647 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 10:45:53,530 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 10:45:53,621 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-16 10:47:23,371 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 10:47:23,493 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 10:48:28,792 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 10:48:28,931 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 10:48:50,082 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 10:48:50,184 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 10:52:58,295 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 10:52:58,401 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 10:57:31,732 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 10:57:31,832 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 11:01:32,173 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 11:01:32,280 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 11:03:13,315 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 11:03:13,437 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 11:03:56,226 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 11:03:56,339 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 11:04:35,586 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 11:04:35,657 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-16 11:04:45,400 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 11:04:45,483 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 11:04:48,581 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 11:04:48,697 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 11:05:50,486 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 11:05:50,595 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 11:07:54,821 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 11:07:54,921 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 11:18:58,385 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 11:18:58,509 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 11:19:41,871 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 11:19:41,992 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 11:23:25,569 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 11:23:25,680 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 11:24:01,775 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 11:24:01,855 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 11:24:42,068 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 11:24:42,150 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 11:27:46,694 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 11:27:46,796 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 11:29:43,065 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 11:29:43,155 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 11:31:33,346 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 11:31:33,483 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 11:32:36,575 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 11:32:36,664 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 11:33:32,167 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 11:33:32,244 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 11:34:00,908 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 11:34:01,236 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 11:44:31,375 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 11:44:31,576 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 11:46:08,197 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 11:46:08,361 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 11:46:40,693 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 11:46:40,855 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 11:47:21,480 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 11:47:21,653 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 11:48:14,091 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 11:48:14,210 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-16 11:48:35,094 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 11:48:35,217 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 13:07:49,148 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 13:07:49,302 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 13:07:58,206 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 13:07:58,323 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 13:08:00,628 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 13:08:00,776 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-16 13:09:25,263 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 13:09:25,433 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 13:11:21,252 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 13:11:21,388 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 13:11:22,930 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 13:11:23,071 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 13:11:24,598 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 13:11:24,753 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 13:11:40,997 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 13:11:41,207 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 13:21:47,950 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 13:21:48,072 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 13:22:54,315 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 13:22:54,486 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 13:24:07,380 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 13:24:07,565 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 13:24:40,451 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 13:24:40,612 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 13:33:17,276 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 13:33:17,719 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 13:38:16,569 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 13:38:16,752 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-16 13:39:24,726 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 13:39:24,871 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 13:41:19,176 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 13:41:19,319 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 13:49:25,697 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 13:49:25,779 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-16 13:50:37,990 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 13:50:38,158 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 13:50:57,262 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 13:50:57,438 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 13:55:08,759 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 13:55:08,888 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 13:56:52,061 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 13:56:52,224 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-16 13:58:17,621 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 13:58:18,016 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 14:00:10,542 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 14:00:10,848 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 14:01:14,003 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 14:01:14,158 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 14:02:39,641 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 14:02:39,792 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-16 14:04:20,525 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 14:04:20,641 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 14:10:25,792 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 14:10:25,973 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 14:13:01,694 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 14:13:01,868 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 14:14:48,551 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 14:14:48,648 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-16 14:15:25,654 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 14:15:25,766 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 14:17:06,806 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 14:17:06,950 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 14:19:38,438 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 14:19:38,592 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 14:20:13,829 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 14:20:14,048 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 14:25:47,043 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 14:25:47,203 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 14:28:06,098 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 14:28:06,247 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-16 14:35:44,457 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 14:35:44,641 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 14:36:58,657 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 14:36:58,819 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 14:37:52,049 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 14:37:52,190 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 14:47:33,673 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 14:47:33,796 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 15:16:21,092 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 15:16:21,371 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-16 15:28:40,828 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 15:28:40,956 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 15:29:46,217 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 15:29:46,338 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 15:35:35,766 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 15:35:35,900 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 15:36:10,790 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 15:36:10,957 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-16 15:38:57,737 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 15:38:57,882 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 15:54:19,213 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 15:54:19,381 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 16:04:23,109 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 16:04:23,239 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 16:04:29,051 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 16:04:29,194 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 16:06:50,273 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 16:06:50,523 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 16:08:51,042 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 16:08:51,207 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 16:16:05,151 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 16:16:05,309 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 16:18:02,638 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 16:18:02,799 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 16:25:02,608 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 16:25:02,792 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 16:29:59,394 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 16:29:59,576 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 16:33:52,926 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 16:33:53,051 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-16 17:04:50,213 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 17:04:50,349 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 17:05:35,371 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 17:05:35,503 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-16 17:14:39,836 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 17:14:40,013 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 17:17:12,298 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 17:17:12,410 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 17:17:20,644 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 17:17:20,790 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-16 17:17:26,075 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 17:17:26,211 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 17:20:19,841 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 17:20:19,989 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-16 17:21:25,246 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 17:21:25,433 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-16 17:22:35,566 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 17:22:35,790 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 17:24:33,191 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 17:24:33,354 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-16 17:25:43,388 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 17:25:43,607 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-16 17:26:58,335 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 17:26:58,483 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 17:29:08,068 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 17:29:08,213 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-16 17:30:15,792 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 17:30:16,374 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-16 17:32:24,602 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 17:32:24,857 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-16 17:32:49,664 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 17:32:49,855 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-16 17:32:50,984 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 17:32:51,111 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-16 17:54:23,147 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 17:54:23,351 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-16 17:55:00,799 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-16 17:55:00,992 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-17 09:09:59,690 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-17 09:09:59,690 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-17 09:12:38,980 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 09:12:39,151 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-17 09:29:19,388 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 09:29:19,539 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 09:49:19,846 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 09:49:19,982 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 09:52:35,884 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 09:52:35,994 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-17 09:54:46,296 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 09:54:46,413 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-17 10:03:44,586 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 10:03:44,894 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 10:06:06,551 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 10:06:06,651 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-17 10:07:38,375 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 10:07:38,565 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 10:10:46,904 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 10:10:47,019 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 10:11:27,654 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 10:11:27,806 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 10:13:16,614 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 10:13:16,815 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 10:14:12,232 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 10:14:12,361 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 10:20:29,025 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 10:20:29,141 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-17 10:21:23,059 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 10:21:23,213 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 10:23:08,562 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 10:23:08,707 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 10:23:36,207 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 10:23:36,348 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 10:23:43,634 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 10:23:43,789 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 11:52:28,267 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 11:52:28,384 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 11:53:32,500 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 11:53:32,638 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 13:05:10,553 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 13:05:10,700 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 13:11:06,749 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 13:11:06,881 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 13:12:35,608 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 13:12:35,717 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 13:16:00,492 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 13:16:00,615 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 13:19:34,095 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 13:19:34,229 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 13:55:15,440 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 13:55:15,617 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 14:10:23,384 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 14:10:23,503 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 14:11:52,244 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 14:11:52,369 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 14:13:18,559 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 14:13:18,684 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 14:18:55,036 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 14:18:55,148 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 14:22:29,115 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 14:22:29,256 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-17 14:23:57,052 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 14:23:57,178 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 14:27:25,604 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 14:27:25,799 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 16:24:34,868 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 16:24:35,019 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 16:27:25,703 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 16:27:25,801 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 16:29:55,596 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 16:29:55,756 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 16:31:20,302 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 16:31:20,434 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-17 16:37:52,167 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 16:37:52,336 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 16:45:21,263 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 16:45:21,421 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 16:47:12,289 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 16:47:12,405 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-17 16:52:52,036 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 16:52:52,184 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 16:57:33,394 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 16:57:33,546 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 17:09:55,434 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 17:09:55,601 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 17:30:08,888 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 17:30:09,108 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-17 17:33:58,141 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 17:33:58,292 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 17:54:52,845 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 17:54:52,993 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 17:54:59,484 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 17:54:59,647 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 17:55:54,538 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 17:55:54,644 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-17 17:58:46,243 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 17:58:46,372 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 18:52:25,645 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 18:52:25,836 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-17 18:52:31,125 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-17 18:52:31,299 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-18 09:28:12,737 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-18 09:28:12,739 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-18 09:28:16,821 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 09:28:17,015 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 09:28:17,055 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 09:28:25,351 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 09:28:25,457 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 09:30:52,302 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 09:30:52,400 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 09:30:56,812 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 09:30:56,986 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 09:33:38,691 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 09:33:38,869 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 09:34:15,061 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 09:34:15,233 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-18 09:34:51,187 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 09:34:51,351 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 09:37:54,303 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 09:37:54,460 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 09:43:06,668 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 09:43:06,835 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 09:44:04,665 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 09:44:04,812 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 09:46:16,257 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 09:46:16,388 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 09:59:11,598 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 09:59:11,710 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 10:03:46,388 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 10:03:46,566 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 10:06:16,553 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 10:06:16,690 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 10:14:00,523 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 10:14:00,631 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-18 10:19:19,410 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 10:19:19,558 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 10:38:33,473 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 10:38:33,644 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 10:53:10,808 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 10:53:10,940 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 11:04:14,665 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 11:04:14,871 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 11:08:26,515 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 11:08:26,599 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 11:22:34,302 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 11:22:34,400 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 11:22:38,200 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 11:22:38,312 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 11:26:34,631 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 11:26:34,737 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-18 11:27:51,005 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 11:27:51,168 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-18 11:28:45,461 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 11:28:45,630 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 11:31:07,372 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 11:31:07,526 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 11:33:42,375 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 11:33:42,562 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-18 11:36:24,211 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 11:36:24,321 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-18 13:31:42,535 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 13:31:42,638 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 13:40:33,335 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 13:40:33,517 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 13:43:20,698 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 13:43:20,888 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 13:45:40,654 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 13:45:40,802 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 13:49:15,818 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 13:49:15,953 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 13:53:43,724 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 13:53:43,901 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 13:55:17,739 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 13:55:17,875 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 13:56:06,565 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 13:56:06,759 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 13:57:35,006 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 13:57:35,391 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 13:59:14,884 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 13:59:15,098 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 14:05:10,676 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 14:05:10,846 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 14:10:32,186 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 14:10:32,351 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 14:11:49,540 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 14:11:49,658 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-18 14:26:03,681 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-18 14:26:03,681 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-18 14:26:07,759 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 14:26:07,966 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-18 14:26:07,997 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 16:12:00,288 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-18 16:12:00,303 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-18 16:17:48,134 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-18 16:17:48,134 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-18 16:20:36,664 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 16:20:53,484 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-18 16:21:27,766 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 16:21:27,907 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 16:21:54,835 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-18 16:21:54,835 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-18 16:22:04,819 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 16:22:46,434 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 16:22:49,864 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 16:22:54,288 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 16:23:23,871 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 16:24:58,428 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-18 16:24:58,428 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-18 16:25:13,167 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 16:36:00,124 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-18 16:36:00,124 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-18 16:36:04,753 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 16:36:32,111 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 16:37:33,760 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 16:37:35,759 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 16:38:27,523 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 16:38:36,980 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-18 16:39:59,033 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-18 16:39:59,033 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-18 16:40:27,265 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 16:40:27,391 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 16:40:40,720 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-18 16:40:40,720 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-18 16:40:44,096 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 16:43:36,153 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-18 16:43:36,154 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-18 16:43:42,890 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 16:43:42,973 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 16:44:01,392 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-18 16:44:01,394 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-18 16:44:11,538 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 16:45:38,088 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-18 16:45:38,088 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-18 16:45:52,023 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 16:46:00,461 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 16:59:16,362 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-18 16:59:16,362 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-18 16:59:20,934 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 16:59:29,665 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 16:59:48,729 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 16:59:51,154 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 17:01:07,426 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 17:01:07,469 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 17:01:25,507 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 17:01:25,627 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 17:44:37,335 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 17:44:37,469 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 30ms.
+2019-01-18 17:52:00,168 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 17:52:00,319 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-18 17:52:30,358 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 17:52:30,513 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 10ms.
+2019-01-18 17:54:11,447 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 17:54:11,622 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 30ms.
+2019-01-18 17:54:30,622 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 17:54:30,763 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-18 17:55:13,782 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-18 17:55:13,782 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-18 17:55:31,267 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 17:55:31,502 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-18 17:55:50,957 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 17:56:15,367 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-18 17:57:12,062 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 17:57:12,236 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-18 17:57:32,987 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 17:57:38,980 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-18 18:02:09,226 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 18:02:09,694 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-18 18:02:22,375 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 18:04:51,489 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-18 18:04:51,489 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 18:05:01,019 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 18:05:50,023 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 20ms.
+2019-01-18 18:06:00,158 - H:/apps/webservice/shangyi_service.py[line:58] - INFO: listening to http://192.168.81.136:8000
+2019-01-18 18:06:00,158 - H:/apps/webservice/shangyi_service.py[line:59] - INFO: wsdl is at: http://192.168.81.136:8000/?wsdl
+2019-01-18 18:07:39,572 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 18:07:39,711 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
+2019-01-18 18:08:09,573 - H:\apps\webservice\venv\lib\site-packages\spyne\protocol\xml.py[line:375] - DEBUG: Validated ? True
+2019-01-18 18:08:09,605 - H:\apps\webservice\venv\lib\site-packages\spyne\_base.py[line:402] - DEBUG: gc.collect() took around 0ms.
